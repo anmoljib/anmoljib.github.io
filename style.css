@@ -1,62 +1,21 @@
-/* Hero-seksjon */
-.hero-seksjon {
-  background-color: #ffe5b4;
-  padding: 80px 0;
-  text-align: center;
+body {
+  font-family: Arial, sans-serif;
 }
 
-/* Hero-knapp */
-.hero-knapp {
-  margin-top: 20px;
-  transition: background-color 0.3s;
+h1,
+h2 {
+  margin-bottom: 20px;
 }
 
-.hero-knapp:hover {
-  background-color: #cc9a6b;
+section {
+  padding: 60px 0;
 }
 
-/* Kort med oppskrifter */
-.oppskrift-kort img {
+.navbar-brand {
+  font-weight: bold;
+}
+
+.card img {
   height: 200px;
   object-fit: cover;
-  transition: transform 0.3s;
-}
-
-.oppskrift-kort img:hover {
-  transform: scale(1.05);
-}
-
-/* Footer */
-.footer {
-  background-color: #333;
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
-
-.meny-logo {
-  font-weight: bold;
-  font-size: 1.5rem;
-}
-
-.lenke {
-  transition: color 0.3s;
-}
-
-.lenke:hover {
-  color: #ffcc80;
-}
-
-/* Form på Kontakt */
-form input,
-form textarea {
-  border-radius: 5px;
-}
-
-form button {
-  transition: background-color 0.3s;
-}
-
-form button:hover {
-  background-color: #0056b3;
 }
