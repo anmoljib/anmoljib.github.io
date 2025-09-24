@@ -3,14 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Min Portfolio - Hjem</title>
+    <title>Min Portfolio - [Sett inn sidenavn]</title>
+    <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+    <!-- Egne stiler -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Navigasjon -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <a class="navbar-brand" href="index.html">Min Portfolio</a>
@@ -25,7 +28,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="index.html">Hjem</a>
+              <a class="nav-link" href="index.html">Hjem</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="projects.html">Prosjekter</a>
@@ -38,13 +41,39 @@
       </div>
     </nav>
 
-    <section class="py-5 text-center bg-light">
-      <div class="container">
-        <h1>Hei, jeg heter Anmol</h1>
-        <p>Jeg går i 2. VGS og liker å lage nettsider og lære om teknologi.</p>
-      </div>
-    </section>
+    <!-- Hovedinnhold -->
+    <main class="container py-5">
+      <!-- Seksjon: Om meg / Hjem -->
+      <section id="about">
+        <h2>[Tittel på seksjonen]</h2>
+        <p>[Skriv noe om deg selv her]</p>
+      </section>
 
+      <!-- Seksjon: Prosjekter -->
+      <section id="projects" class="mt-5">
+        <h2>[Prosjekter]</h2>
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="[Bilde URL]" class="card-img-top" alt="Prosjekt 1" />
+              <div class="card-body">
+                <h5 class="card-title">[Prosjekt 1]</h5>
+                <p class="card-text">[Kort beskrivelse]</p>
+              </div>
+            </div>
+          </div>
+          <!-- Kopier col-md-4 for flere prosjekter -->
+        </div>
+      </section>
+
+      <!-- Seksjon: Kontakt -->
+      <section id="contact" class="mt-5">
+        <h2>Kontakt</h2>
+        <p>[E-post, telefon, eller lenker til sosiale medier]</p>
+      </section>
+    </main>
+
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
